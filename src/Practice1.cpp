@@ -65,7 +65,7 @@ int _tmain(int argc, _TCHAR* argv[])
 					stCurrent->lID=stNew->lID;
 				}
 				
-				//stCurrent=NULL;	
+				stCurrent = NULL;	
 				//stNew->stNext = NULL;
 				fclose(fp);
 				printf("Successfully Loaded!");
